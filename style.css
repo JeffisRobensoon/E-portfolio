@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span {
   line-height: 1.25;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 p{
   line-height: 1.5;
   font-size: 16px;
@@ -35,15 +39,20 @@ li {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.text--purple {
+  color: purple;
+}
 /* Navigation Bar */
 
 nav {
   height: 100px;
-  width: 100;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__link--list {
@@ -84,7 +93,7 @@ nav {
  flex-direction: column;
 }
 
-.about-mee__info--container {
+.about-me__info--container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,11 +105,12 @@ nav {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 160x rgba (0, 0, 0, 0.2)
+  box-shadow: 0 8px 160x rgba (0, 0, 0, 0.2);
+  margin-bottom: 28px;
 }
 
 .about-me__picture {
   width: 100%;
-  transfor: scale(1.5);
+  transform: scale(1.5);
   padding-top: 8px;
 }
